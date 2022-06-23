@@ -1,4 +1,4 @@
-name: bind_layout
+name: riverside
 description: A new Flutter project.
 
 publish_to: 'none'
@@ -13,8 +13,8 @@ dependencies:
     sdk: flutter
   dio: ^4.0.6
   retrofit: ^3.0.1+1
-  bloc: ^8.0.3
-  flutter_bloc: ^8.0.1
+  bloc: ^7.2.1
+  flutter_bloc: ^7.3.3
   auto_route: ^4.0.1
   flutter_dotenv: ^5.0.2
   device_info_plus: ^3.2.3
@@ -26,6 +26,8 @@ dependencies:
   get_it: ^7.2.0
   injectable: ^1.5.3
   logger: ^1.1.0
+  qr_flutter: ^4.0.0
+  qr_code_scanner: ^1.0.0-alpha.1
   flutter_svg: ^1.0.3
   flutter_html: ^3.0.0-alpha.3
   dartz: ^0.10.1
@@ -33,9 +35,10 @@ dependencies:
   fast_immutable_collections: ^7.3.1
   rxdart: ^0.27.3
   freezed_annotation: ^2.0.3
+  fl_chart: ^0.50.6
   shared_preferences: ^2.0.15
   vibration: ^1.7.4-nullsafety.0
-  table_calendar: ^3.0.6
+  table_calendar: ^3.0.5
   local_auth: ^2.0.2
   url_launcher: ^6.1.2
   simple_rich_text: ^2.0.49
@@ -44,10 +47,6 @@ dependencies:
   flutter_image_compress: ^1.1.0
   connectivity_plus: ^2.3.0
   speed_up_get: ^0.0.2
-  mask_text_input_formatter: ^2.3.0
-  number_inc_dec: ^0.8.0
-  mobile_scanner: ^2.0.0
-  tinkoff_sdk: ^0.4.3
   vfx_flutter_common:
     git:
       url: https://gitlab.com/frostyland/vfx_flutter_common.git
@@ -67,6 +66,11 @@ dev_dependencies:
   mocktail: ^0.3.0
   retrofit_generator: ^4.0.1
 
+dependency_overrides:
+  qr_code_scanner: 
+    git:
+      url: https://github.com/X-SLAYER/qr_code_scanner.git
+      ref: flutter-beta
 
 flutter:
   uses-material-design: true
@@ -76,22 +80,3 @@ flutter:
     - assets/icons/
     - assets/images/
     - assets/translations/
-    - assets/fonts/
-  
-  fonts:
-  - family: SF UI Display
-    fonts:
-      - asset: assets/fonts/SF-UI-Display-Bold.ttf
-        style: normal
-        weight: 600
-      - asset: assets/fonts/SF-UI-Display-Semibold.ttf
-        style: normal
-        weight: 500
-      - asset: assets/fonts/SF-UI-Display-Regular.ttf
-        style: normal
-        weight: 400
-  - family: Montserrat
-    fonts:
-      - asset: assets/fonts/Montserrat/Montserrat-Bold.ttf
-        style: normal
-        weight: 700

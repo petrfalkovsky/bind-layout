@@ -1,15 +1,3 @@
 {
-  "@@locale": "ru",
-  "account": "USD Аккаунт",
-  "hide": "Скрыть",
-  "currencySymbol": "₽",
-  "transactionsHistory": "История транзакций",
-  "USD": "USD - доллар США",
-  "EUR": "EUR - евро",
-  "GBP": "GBP - британский фунт",
-  "JPY": "JPY - японская йена",
-  "USDt": "USDt - Tether",
-  "all": "Показать все",
-  "yesterday": "Вчера"
-
+  
 }

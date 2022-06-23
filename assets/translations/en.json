@@ -1,15 +1,3 @@
 {
-    "@@locale": "en",
-    "account": "USD Account",
-    "hide": "Hide",
-    "currencySymbol": "$",
-    "transactionsHistory": "Transactions History",
-    "USD": "USD - Dollar",
-    "EUR": "EUR - Euro",
-    "GBP": "GBP - British Pound",
-    "JPY": "JPY - Japanese Yen",
-    "USDt": "USDt - Tether",
-    "all": "All",
-    "yesterday": "Yesterday"
-
+  
 }
