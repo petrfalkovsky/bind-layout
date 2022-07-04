@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart' hide Trans;
-import 'package:riverside/ui/router/routing.dart';
-import 'package:riverside/ui/screens/language/src/language_controller.dart';
-import 'package:riverside/ui/shared/all_shared.dart';
-import 'package:riverside/ui/shared/widgets/general_scaffold/src/general_scaffold.dart';
+import 'package:bind_layout/ui/router/routing.dart';
+import 'package:bind_layout/ui/screens/language/src/language_controller.dart';
+import 'package:bind_layout/ui/shared/all_shared.dart';
+import 'package:bind_layout/ui/shared/widgets/general_scaffold/src/general_scaffold.dart';
 import 'package:vfx_flutter_common/getx_helpers.dart';
 import 'package:easy_localization/easy_localization.dart';
 

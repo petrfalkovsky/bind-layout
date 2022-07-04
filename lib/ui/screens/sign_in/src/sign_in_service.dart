@@ -1,8 +1,8 @@
 import 'package:get/get.dart' hide Trans;
 import 'package:get_it/get_it.dart';
-import 'package:riverside/core/utils/stream_subscriber.dart';
-import 'package:riverside/data/repository/local/local_repository.dart';
-import 'package:riverside/logic/repository/repository.dart';
+import 'package:bind_layout/core/utils/stream_subscriber.dart';
+import 'package:bind_layout/data/repository/local/local_repository.dart';
+import 'package:bind_layout/logic/repository/repository.dart';
 
 class SignInScreenService extends GetxService with StreamSubscriberMixin {
   SignInScreenService({

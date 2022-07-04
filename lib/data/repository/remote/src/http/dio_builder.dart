@@ -5,11 +5,11 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
-import 'package:riverside/app_config.dart';
-import 'package:riverside/core/services/app_logger.dart';
-import 'package:riverside/data/repository/local/local_repository.dart';
-import 'package:riverside/domain/core/extended_errors.dart';
-import 'package:riverside/ui/shared/ext.dart';
+import 'package:bind_layout/app_config.dart';
+import 'package:bind_layout/core/services/app_logger.dart';
+import 'package:bind_layout/data/repository/local/local_repository.dart';
+import 'package:bind_layout/domain/core/extended_errors.dart';
+import 'package:bind_layout/ui/shared/ext.dart';
 
 abstract class IDioProvider {
   Dio get dio;

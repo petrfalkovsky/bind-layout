@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart' hide Trans;
-import 'package:riverside/ui/screens/internet/src/internet_controller.dart';
-import 'package:riverside/ui/shared/all_shared.dart';
+import 'package:bind_layout/ui/screens/internet/src/internet_controller.dart';
+import 'package:bind_layout/ui/shared/all_shared.dart';
 
 import 'package:vfx_flutter_common/getx_helpers.dart';
 import 'package:vfx_flutter_common/utils.dart';

@@ -1,8 +1,8 @@
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
-import 'package:riverside/data/repository/local/local_repository.dart';
-import 'package:riverside/data/repository/remote/remote_repository.dart';
-import 'package:riverside/logic/repository/repository.dart';
+import 'package:bind_layout/data/repository/local/local_repository.dart';
+import 'package:bind_layout/data/repository/remote/remote_repository.dart';
+import 'package:bind_layout/logic/repository/repository.dart';
 
 @prod
 @LazySingleton(as: Repository)

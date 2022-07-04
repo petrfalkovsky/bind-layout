@@ -1,20 +1,20 @@
+import 'package:bind_layout/ui/screens/look_at_crypto/src/look_at_crypto_service.dart';
+import 'package:bind_layout/ui/screens/nice_e_meet_you/src/nice_e_meet_service.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:injectable/injectable.dart';
 import 'package:overlay_support/overlay_support.dart';
-import 'package:riverside/app_config.dart';
-import 'package:riverside/injection.dart';
-import 'package:riverside/ui/router/routing.dart';
-import 'package:riverside/ui/screens/bookings/bookings.dart';
-import 'package:riverside/ui/screens/internet/src/internet_service.dart';
-import 'package:riverside/ui/screens/language/language.dart';
-import 'package:riverside/ui/screens/my_bookings/my_bookings.dart';
-import 'package:riverside/ui/screens/sign_in/src/sign_in_service.dart';
-import 'package:riverside/ui/screens/splash/src/splash_service.dart';
-import 'package:riverside/ui/shared/all_shared.dart';
-import 'package:riverside/ui/shared/widgets/general_scaffold/src/general_scaffold_service.dart';
+import 'package:bind_layout/app_config.dart';
+import 'package:bind_layout/injection.dart';
+import 'package:bind_layout/ui/router/routing.dart';
+import 'package:bind_layout/ui/screens/internet/src/internet_service.dart';
+import 'package:bind_layout/ui/screens/language/language.dart';
+import 'package:bind_layout/ui/screens/sign_in/src/sign_in_service.dart';
+import 'package:bind_layout/ui/screens/splash/src/splash_service.dart';
+import 'package:bind_layout/ui/shared/all_shared.dart';
+import 'package:bind_layout/ui/shared/widgets/general_scaffold/src/general_scaffold_service.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -96,7 +96,7 @@ Future _initServices() async {
     ..put(InternetScreenService())
     ..lazyPut(() => SplashScreenService())
     ..lazyPut(() => SignInScreenService())
-    ..lazyPut(() => MyBookingsService())
-    ..lazyPut(() => BookingsService())
+    ..lazyPut(() => LookAtCryptoLayoutService())
+    ..lazyPut(() => NiceEMeetYouService())
     ..lazyPut(() => GeneralScaffoldService());
 }

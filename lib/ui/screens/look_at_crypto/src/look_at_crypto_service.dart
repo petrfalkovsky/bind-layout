@@ -1,8 +1,8 @@
 import 'package:get/get.dart' hide Trans;
-import 'package:riverside/core/utils/stream_subscriber.dart';
+import 'package:bind_layout/core/utils/stream_subscriber.dart';
 
-class MyBookingsService extends GetxService with StreamSubscriberMixin {
-  MyBookingsService();
+class LookAtCryptoLayoutService extends GetxService with StreamSubscriberMixin {
+  LookAtCryptoLayoutService();
 
   final _name = 'мои брони'.obs;
   String get name$ => _name();

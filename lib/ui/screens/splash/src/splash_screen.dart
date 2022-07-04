@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:riverside/ui/shared/all_shared.dart';
-import 'package:riverside/ui/shared/widgets/background.dart';
-import 'package:riverside/ui/shared/widgets/general_scaffold/src/general_scaffold.dart';
+import 'package:bind_layout/ui/shared/all_shared.dart';
+import 'package:bind_layout/ui/shared/widgets/background.dart';
+import 'package:bind_layout/ui/shared/widgets/general_scaffold/src/general_scaffold.dart';
 
 import 'package:vfx_flutter_common/getx_helpers.dart';
 

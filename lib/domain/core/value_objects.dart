@@ -1,9 +1,9 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:riverside/core/safe_coding/src/either.dart';
-import 'package:riverside/core/safe_coding/src/unit.dart';
-import 'package:riverside/domain/core/common_interfaces.dart';
-import 'package:riverside/domain/core/failures.dart';
-import 'package:riverside/domain/core/value_validators.dart';
+import 'package:bind_layout/core/safe_coding/src/either.dart';
+import 'package:bind_layout/core/safe_coding/src/unit.dart';
+import 'package:bind_layout/domain/core/common_interfaces.dart';
+import 'package:bind_layout/domain/core/failures.dart';
+import 'package:bind_layout/domain/core/value_validators.dart';
 
 /// Базовый класс TypeDD
 @immutable

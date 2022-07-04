@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:riverside/ui/shared/all_shared.dart';
+import 'package:bind_layout/ui/shared/all_shared.dart';
 
 class Consts {
   static const delayMill100 = 100;

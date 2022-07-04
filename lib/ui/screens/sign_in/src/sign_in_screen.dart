@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart' hide Trans;
-import 'package:riverside/ui/router/routing.dart';
+import 'package:bind_layout/ui/router/routing.dart';
 
 import 'package:vfx_flutter_common/getx_helpers.dart';
 import 'package:vfx_flutter_common/utils.dart';

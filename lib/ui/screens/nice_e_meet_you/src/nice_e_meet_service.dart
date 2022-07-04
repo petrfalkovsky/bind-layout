@@ -6,8 +6,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart' hide Trans;
 import 'package:get_it/get_it.dart';
-import 'package:riverside/core/utils/stream_subscriber.dart';
+import 'package:bind_layout/core/utils/stream_subscriber.dart';
 
-class BookingsService extends GetxService with StreamSubscriberMixin {
-  BookingsService();
+class NiceEMeetYouService extends GetxService with StreamSubscriberMixin {
+  NiceEMeetYouService();
 }

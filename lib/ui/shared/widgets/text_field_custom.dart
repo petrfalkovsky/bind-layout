@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart' hide Trans;
-import 'package:riverside/ui/shared/all_shared.dart';
+import 'package:bind_layout/ui/shared/all_shared.dart';
 
 class TextFieldCustom extends StatelessWidget {
   const TextFieldCustom({

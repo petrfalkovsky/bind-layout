@@ -3,10 +3,10 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
-import 'package:riverside/core/safe_coding/src/either.dart';
-import 'package:riverside/data/repository/remote/remote_repository.dart';
-import 'package:riverside/data/repository/remote/src/http/api_client.dart';
-import 'package:riverside/domain/core/extended_errors.dart';
+import 'package:bind_layout/core/safe_coding/src/either.dart';
+import 'package:bind_layout/data/repository/remote/remote_repository.dart';
+import 'package:bind_layout/data/repository/remote/src/http/api_client.dart';
+import 'package:bind_layout/domain/core/extended_errors.dart';
 
 /// Имплементация
 @prod

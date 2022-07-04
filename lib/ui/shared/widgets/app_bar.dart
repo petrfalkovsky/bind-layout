@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:riverside/ui/shared/widgets/general_scaffold/src/general_scaffold_service.dart';
-import 'package:riverside/ui/shared/all_shared.dart';
+import 'package:bind_layout/ui/shared/widgets/general_scaffold/src/general_scaffold_service.dart';
+import 'package:bind_layout/ui/shared/all_shared.dart';
 
 PreferredSizeWidget getStatAppBar(
   BuildContext context, {

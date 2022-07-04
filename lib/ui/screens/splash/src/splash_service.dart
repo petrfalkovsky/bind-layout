@@ -1,5 +1,5 @@
 import 'package:get/get.dart' hide Trans;
-import 'package:riverside/core/utils/stream_subscriber.dart';
+import 'package:bind_layout/core/utils/stream_subscriber.dart';
 
 class SplashScreenService extends GetxService with StreamSubscriberMixin {
   // SplashScreenService({

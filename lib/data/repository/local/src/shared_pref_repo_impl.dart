@@ -1,7 +1,7 @@
 import 'package:injectable/injectable.dart';
-import 'package:riverside/core/safe_coding/src/either.dart';
-import 'package:riverside/data/repository/local/local_repository.dart';
-import 'package:riverside/domain/core/value_objects.dart';
+import 'package:bind_layout/core/safe_coding/src/either.dart';
+import 'package:bind_layout/data/repository/local/local_repository.dart';
+import 'package:bind_layout/domain/core/value_objects.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Имплементация локального репозитория

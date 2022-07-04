@@ -4,11 +4,11 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart' hide Trans;
 import 'package:get_it/get_it.dart';
-import 'package:riverside/core/utils/stream_subscriber.dart';
-import 'package:riverside/logic/repository/repository.dart';
-import 'package:riverside/ui/router/routing.dart';
-import 'package:riverside/ui/screens/internet/src/internet_service.dart';
-import 'package:riverside/ui/shared/all_shared.dart';
+import 'package:bind_layout/core/utils/stream_subscriber.dart';
+import 'package:bind_layout/logic/repository/repository.dart';
+import 'package:bind_layout/ui/router/routing.dart';
+import 'package:bind_layout/ui/screens/internet/src/internet_service.dart';
+import 'package:bind_layout/ui/shared/all_shared.dart';
 
 class GeneralScaffoldService extends GetxService with StreamSubscriberMixin {
   GeneralScaffoldService({

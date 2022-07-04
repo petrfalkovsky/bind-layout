@@ -1,10 +1,9 @@
+import 'package:bind_layout/ui/screens/nice_e_meet_you/src/nice_e_meet_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart' hide Trans;
-import 'package:riverside/ui/screens/my_bookings/my_bookings.dart';
-import 'package:riverside/ui/screens/sign_in/sign_in.dart';
-import 'package:riverside/ui/screens/splash/splash.dart';
-
-import '../screens/bookings/bookings.dart';
+import 'package:bind_layout/ui/screens/look_at_crypto/look_at_crypto.dart';
+import 'package:bind_layout/ui/screens/sign_in/sign_in.dart';
+import 'package:bind_layout/ui/screens/splash/splash.dart';
 
 class AppRoutes {
   static const String splash = '/';

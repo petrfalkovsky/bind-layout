@@ -3,9 +3,9 @@ import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
-import 'package:riverside/data/repository/local/local_repository.dart';
-import 'package:riverside/domain/core/value_objects.dart';
-import 'package:riverside/ui/shared/all_shared.dart';
+import 'package:bind_layout/data/repository/local/local_repository.dart';
+import 'package:bind_layout/domain/core/value_objects.dart';
+import 'package:bind_layout/ui/shared/all_shared.dart';
 
 enum LanguageApp { ru, en }
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:riverside/ui/shared/all_shared.dart';
+import 'package:bind_layout/ui/shared/all_shared.dart';
 
 class StdInput extends StatelessWidget {
   StdInput(

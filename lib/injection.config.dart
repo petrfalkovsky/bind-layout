@@ -6,19 +6,20 @@
 
 import 'package:get_it/get_it.dart' as _i1;
 import 'package:injectable/injectable.dart' as _i2;
-import 'package:riverside/core/services/access_token_service.dart' as _i3;
-import 'package:riverside/data/repository/local/local_repository.dart' as _i6;
-import 'package:riverside/data/repository/local/src/shared_pref_repo_impl.dart'
+import 'package:bind_layout/core/services/access_token_service.dart' as _i3;
+import 'package:bind_layout/data/repository/local/local_repository.dart' as _i6;
+import 'package:bind_layout/data/repository/local/src/shared_pref_repo_impl.dart'
     as _i7;
-import 'package:riverside/data/repository/remote/remote_repository.dart' as _i8;
-import 'package:riverside/data/repository/remote/src/http/api_client.dart'
+import 'package:bind_layout/data/repository/remote/remote_repository.dart'
+    as _i8;
+import 'package:bind_layout/data/repository/remote/src/http/api_client.dart'
     as _i4;
-import 'package:riverside/data/repository/remote/src/http/dio_builder.dart'
+import 'package:bind_layout/data/repository/remote/src/http/dio_builder.dart'
     as _i5;
-import 'package:riverside/data/repository/remote/src/remote_remote_repo_impl.dart'
+import 'package:bind_layout/data/repository/remote/src/remote_remote_repo_impl.dart'
     as _i9;
-import 'package:riverside/data/repository/repository.dart' as _i11;
-import 'package:riverside/logic/repository/repository.dart' as _i10;
+import 'package:bind_layout/data/repository/repository.dart' as _i11;
+import 'package:bind_layout/logic/repository/repository.dart' as _i10;
 
 const String _prod = 'prod';
 // ignore_for_file: unnecessary_lambdas

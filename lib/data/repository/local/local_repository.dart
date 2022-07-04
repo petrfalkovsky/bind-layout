@@ -1,6 +1,6 @@
-import 'package:riverside/core/safe_coding/src/either.dart';
-import 'package:riverside/core/safe_coding/src/unit.dart';
-import 'package:riverside/domain/core/value_objects.dart';
+import 'package:bind_layout/core/safe_coding/src/either.dart';
+import 'package:bind_layout/core/safe_coding/src/unit.dart';
+import 'package:bind_layout/domain/core/value_objects.dart';
 
 export 'src/shared_pref_repo_impl.dart';
 

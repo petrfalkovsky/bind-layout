@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:riverside/ui/shared/all_shared.dart';
+import 'package:bind_layout/ui/shared/all_shared.dart';
 
 class AppIcons {
   static String ruPath = 'assets/images/RU.svg';
@@ -73,8 +73,7 @@ class AppIcons {
       'assets/images/logo.svg'; //SvgPicture.asset('assets/images/logo.svg');
 
   static Widget avatar = svgWidget(avatarPath); // SvgPicture.asset(avatarPath);
-  static const AssetImage background =
-      AssetImage('assets/images/splash_screen_bg.png');
+  static const AssetImage background = AssetImage('assets/images/splash.png');
 
   static Widget svgWidget(String path,
       {double? width, double? height, Color? color}) {

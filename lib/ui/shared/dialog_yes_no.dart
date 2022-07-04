@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart' hide Trans;
 import 'package:easy_localization/easy_localization.dart';
-import 'package:riverside/ui/shared/all_shared.dart';
-import 'package:riverside/ui/shared/widgets/std_button.dart';
+import 'package:bind_layout/ui/shared/all_shared.dart';
+import 'package:bind_layout/ui/shared/widgets/std_button.dart';
 
 void showDialogYesNo({
   required String text,

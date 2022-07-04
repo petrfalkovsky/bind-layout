@@ -2,9 +2,9 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart' hide Trans;
-import 'package:riverside/ui/screens/internet/internet.dart';
-import 'package:riverside/ui/shared/all_shared.dart';
-import 'package:riverside/ui/shared/widgets/general_scaffold/src/general_scaffold_service.dart';
+import 'package:bind_layout/ui/screens/internet/internet.dart';
+import 'package:bind_layout/ui/shared/all_shared.dart';
+import 'package:bind_layout/ui/shared/widgets/general_scaffold/src/general_scaffold_service.dart';
 
 class GeneralScaffold extends GetView<GeneralScaffoldService> {
   const GeneralScaffold({

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:riverside/ui/screens/my_bookings/my_bookings.dart';
-import 'package:riverside/ui/shared/widgets/general_scaffold/scaffold_sirius.dart';
-import 'package:riverside/ui/shared/widgets/std_button.dart';
+import 'package:get/get.dart' hide Trans;
+import 'package:bind_layout/ui/screens/look_at_crypto/look_at_crypto.dart';
+import 'package:bind_layout/ui/shared/widgets/general_scaffold/scaffold_sirius.dart';
+import 'package:bind_layout/ui/shared/widgets/std_button.dart';
 import 'package:vfx_flutter_common/getx_helpers.dart';
 
-class LookAtCryptoLayout extends StatexWidget<MyBookingsController> {
+class LookAtCryptoLayout extends StatexWidget<LookAtCryptoLayoutController> {
   LookAtCryptoLayout({Key? key})
-      : super(() => MyBookingsController(), key: key) {
-    debugPrint(' MyBookings.MyBookings');
+      : super(() => LookAtCryptoLayoutController(), key: key) {
+    debugPrint(' LookAtCryptoLayout.LookAtCryptoLayout');
   }
 
   @override
